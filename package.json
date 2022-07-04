@@ -1,0 +1,29 @@
+{
+    "name": "tareafactorial10",
+    "version": "1.0.0",
+    "description": "Sacar el factorial del numero 10 con for, while y break.",
+    "main": "factorial-break.js",
+    "scripts": {
+        "factorial_for": "node factorial-for.js",
+        "factorial-while": "node factorial-while.js",
+        "factorial-break": "node factorial-break.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pachecoweb/factorial_tarea.git"
+    },
+    "keywords": [
+        "for",
+        "while",
+        "break",
+        "loops",
+        "bucles"
+    ],
+    "author": "Diego Pacheco Baca",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Pachecoweb/factorial_tarea/issues"
+    },
+    "homepage": "https://github.com/Pachecoweb/factorial_tarea#readme"
+}
