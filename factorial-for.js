@@ -1,12 +1,13 @@
-function factorizar(numero) {
+function factorial(number) {
 
-    if (numero === 0 || numero === 1) {
+    var result = number;
+
+    if (number === 0 || number === 1)
         return 1;
 
-        for (let i = numero - 1; i >= 1; i++) {
-            numero *= i;
-        }
+    for (i = number - 1; i > 1; i--) {
+        number = number * i;
     }
-    return numero;
+    return number;
 }
-console.log(factorizar(7));
+console.log(factorial(10));
